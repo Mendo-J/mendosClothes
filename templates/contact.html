@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mendo's Clothes</title>
+	<link rel="shortcut icon" href="../assets/img/favicon.png">
+	<link rel="stylesheet" href="../assets/fontawesome-free-6.1.1-web/css/all.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		
+		<!-- Navbar -->
+		<nav class="navbar">
+
+			
+			<a href="../index.html"><img src="../assets/img/logo-wt.png" alt="mendo's brand logo" class="navbar__logo"></a>
+
+		
+			<ul class="navbar__list">
+					<li class="list__item">
+						<a class="list__text" href="../index.html">Inicio</a>
+					</li>
+					<li class="list__item">
+						<a class="list__text" href="about.html">Nosotros</a>
+					</li>
+					<li class="list__item">
+						<a class="list__text" href="products.html">Productos</a>
+					</li>
+					<li class="list__item">
+						<a class="list__text" href="contact.html">Contacto</a>
+					</li>
+					<li class="list__item">
+						<a class="list__text" href="faq.html">Preguntas Frecuentes</a>
+					</li>
+			</ul>
+
+
+			<div class="navbar__div">
+				<ul class="navbar__social">
+					<li class="list__item">
+						<i class="fa-brands fa-facebook-square"></i>
+						<a href="https://facebook.com">Facebook</a>
+					</li>
+
+					<li class="list__item">
+						<i class="fa-brands fa-instagram-square"></i>
+						<a href="https://instagram.com">Instagram</a>
+					</li>
+				</ul>
+			</div>
+
+			
+		</nav>
+	</header>
+
+	<main>
+
+		<!-- Contact form-->
+
+		<section class="contact">
+
+			<h1 class="article__title--1">CONTACTO</h1>
+
+			<article>
+                <form class="contact__form" action="#">
+                    <fieldset class="contact__fieldset">
+                        <legend style="margin-bottom: 15px;">Información de contacto</legend>
+
+                        <div style="margin-bottom: 15px;">
+                            <label for="name">Nombre completo: </label>
+                            <input type="text" name="name" id="name" placeholder="Ingrese su nombre completo">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email"placeholder="Ingrese su dirección email">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <label for="phone">Teléfono: </label>
+                            <input type="number" name="phone" id="phone" placeholder="Ingrese su número de teléfono">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <label for="phoneType">Celular</label>
+                            <input type="radio" name="phoneType" id="phoneType" value="cellphone">
+                            <label for="phoneType2">Fijo</label>
+                            <input type="radio" name="phoneType" id="phoneType" value="telephone">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <p>¿Por qué producto quiere que le informemos?</p>
+                            <select name="wantedProduct" id="wantedProduct">
+                                <option value="chomba">Chombas</option>
+                                <option value="remera">Remeras</option>
+                                <option value="jean">Jeans</option>
+                            </select>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+							<input type="checkbox" name="discounts" id="discounts" value="1">
+                            <label for="discounts">Acepta recibir ofertas a su email</label>
+                        </div>
+
+                        <div style="margin-bottom: 15px; margin-top: 50px;">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Resetear">
+                        </div>
+                    </fieldset>
+                </form>
+            </article>
+		</section>
+
+	</main>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+
+		<div class="footer__div">
+			<h3 class="list__title">Mapa del sitio</h3>
+			<ul class="footer__list">
+				<li>
+					<a href="../index.html">Inicio</a>
+				</li>
+				<li>
+					<a href="about.html">Nosotros</a>
+				</li>
+				<li>
+					<a href="products.html">Productos</a>
+				</li>
+				<li>
+					<a href="contact.html">Contacto</a>
+				</li>
+				<li>
+					<a href="faq.html">Preguntas Frecuentes</a>
+				</li>
+			</ul>
+		</div>
+
+	
+		<h3 class="footer__rights">Derechos reservados. Mendo's 2022 ©</h3>
+		
+
+		<div class="footer__div--social">
+			
+			<h3 class="footer__title">Redes Sociales</h3>
+
+			<a href=""><i class="footer__icons fa-solid fa-envelope fa-xl"></i></a>
+		
+			<a href="https://facebook.com"><i class="footer__icons fa-brands fa-facebook-square fa-xl"></i></a>
+		
+			<a href="https://instagram.com"><i class="footer__icons fa-brands fa-instagram-square fa-xl"></i></a>
+			
+		</div>
+
+	</footer>
+</body>
+</html>
